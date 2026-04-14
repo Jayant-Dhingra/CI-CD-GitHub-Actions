@@ -1,0 +1,8 @@
+name: namaste
+on: push
+jobs:
+    ramram:
+        runs-on: windows-latest
+        steps:
+            - name: "RamRam"
+              run: echo "Hello bhai GitHub actions"
